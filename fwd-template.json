@@ -48,6 +48,78 @@
                     "path": "template/Dockerfile"
                 }
             ]
+        },
+        {
+            "name": "8.2-nginx-sqlsrv",
+            "data": {
+                "from": "kooldev/php:8.2-nginx"
+            },
+            "files": [
+                {
+                    "name": "Dockerfile",
+                    "path": "template/Dockerfile"
+                }
+            ]
+        },
+        {
+            "name": "8.2-nginx-sqlsrv-prod",
+            "data": {
+                "from": "kooldev/php:8.2-nginx-prod"
+            },
+            "files": [
+                {
+                    "name": "Dockerfile",
+                    "path": "template/Dockerfile"
+                }
+            ]
+        },
+        {
+            "name": "8.3-nginx-sqlsrv",
+            "data": {
+                "from": "kooldev/php:8.3-nginx"
+            },
+            "files": [
+                {
+                    "name": "Dockerfile",
+                    "path": "template/Dockerfile"
+                }
+            ]
+        },
+        {
+            "name": "8.3-nginx-sqlsrv-prod",
+            "data": {
+                "from": "kooldev/php:8.3-nginx-prod"
+            },
+            "files": [
+                {
+                    "name": "Dockerfile",
+                    "path": "template/Dockerfile"
+                }
+            ]
+        },
+        {
+            "name": "8.4-nginx-sqlsrv",
+            "data": {
+                "from": "kooldev/php:8.4-nginx"
+            },
+            "files": [
+                {
+                    "name": "Dockerfile",
+                    "path": "template/Dockerfile"
+                }
+            ]
+        },
+        {
+            "name": "8.4-nginx-sqlsrv-prod",
+            "data": {
+                "from": "kooldev/php:8.4-nginx-prod"
+            },
+            "files": [
+                {
+                    "name": "Dockerfile",
+                    "path": "template/Dockerfile"
+                }
+            ]
         }
     ]
 }
